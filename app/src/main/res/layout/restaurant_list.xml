@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_rest_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#fff"
+    android:elevation="4dp"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/iv_rest_logo"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/iv_rest_logo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_rest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="The Noodle"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Min Delivery : RS"
+                android:textColor="#574D4D"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/tv_delivery_charge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/delivery"
+                android:text="$25"
+                android:textColor="#574D4D"
+                android:textSize="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/tv_delivery_charge"
+                android:text="/ Open"
+                android:textColor="#574D4D"
+                android:textSize="8dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="5 Star Rating"
+            android:textColor="#000" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/custom_btn_menu"
+            android:text="Menu"
+            android:textColor="#000"
+            android:textSize="8dp" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+

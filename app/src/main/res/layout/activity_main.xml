@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gh"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_logo" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="food"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_food"
+                android:text="feed"
+                android:textColor="#000"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_edit_text"
+            android:hint="Enter your city name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:text="Jodhpur"
+            android:textColor="#000"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/btn_find_food"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_btn_find_food"
+            android:text="Find food"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</FrameLayout>

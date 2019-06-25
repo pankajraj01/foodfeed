@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C000DD</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#C000DD</color>
+    <color name="button1">#E1E1E1</color>
+    <color name="btn_login">#C000DD</color>
+    <color name="btn_facebook">#355BFF</color>
+    <color name="button4">#383838</color>
+    <color name="btn_google">#F31741</color>
+</resources>
